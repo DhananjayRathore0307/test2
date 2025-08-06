@@ -8,7 +8,7 @@ import "react-markdown-editor-lite/lib/index.css";
 import markdownItTaskLists from "markdown-it-task-lists";
 
 const mdParser = new MarkdownIt().use(markdownItTaskLists, { enabled: true });
-const socket = io("http://localhost:5000");
+const socket = io("https://test2-4dn5.onrender.com");
 
 export default function NoteEditor() {
   const { id } = useParams();
