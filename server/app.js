@@ -6,10 +6,7 @@ const app = express();
 
 // 🔧 Configure CORS to allow frontend domains and credentials
 app.use(cors({
-  origin: [
-    'http://localhost:5173',
-    'https://test-ten-rho-63.vercel.app'
-  ],
+  origin: 'https://test2-mauve-kappa.vercel.app',
   credentials: true,
 }));
 
